@@ -6,10 +6,10 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #1D7D81;
     color: white;
     padding: 10px 0;
-    margin-bottom: 20px;
+    margin:-28px 0 0 0;
 }
 
 .form-section, .inventory-section {
@@ -20,22 +20,27 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input[type="text"], input[type="number"] {
+select,input[type="text"], input[type="number"] {
     padding: 10px;
     margin: 10px 0;
-    width: calc(100% - 20px);
+    width: calc(15% - 10px);
+    background-color: #DDDDDD;
+    margin-left: 25px;
+    border-radius: 5px;
+    border:none;
 }
 
 button {
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #213458 ;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 12px;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #1D7D81;
 }
 
 table {

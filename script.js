@@ -43,6 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateTotalValue() {
         const totalValue = products.reduce((total, product) => total + product.total, 0);
-        totalValueDiv.textContent = `Total Inventory Value: $${totalValue.toFixed(2)}`;
+        totalValueDiv.textContent = `القيمة الإجمالية للمخزون: ${totalValue.toFixed(2) }DH`;
     }
 });
